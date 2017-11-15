@@ -36,6 +36,7 @@ public class HomeWorkSessionOne : MonoBehaviour {
         Animals.Remove("mouse");
 
         Weapons.Add("Slot1", "Gun");
+        Weapons.Add("Slot2", "Knife");
 
 
 

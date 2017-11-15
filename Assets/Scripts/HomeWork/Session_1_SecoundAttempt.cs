@@ -24,13 +24,14 @@ public class Session_1_SecoundAttempt : MonoBehaviour {
     List<string> ExpancesList = new List<string>();
     List<int> MyNumbersList = new List<int>();
 
-      
-    
+    Dictionary<string, int> StudentAges = new Dictionary<string, int>();
+
+
 
 
 
     //Functions:
-    
+
     // Use this for initialization
     void Start() {
 
@@ -45,7 +46,8 @@ public class Session_1_SecoundAttempt : MonoBehaviour {
         MyNumbersList.Add(11);
         MyNumbersList.Add(5);
 
-        
+        StudentAges.Add("John", 25);
+
 
        
 
@@ -55,7 +57,7 @@ public class Session_1_SecoundAttempt : MonoBehaviour {
         //Print to Consol:
 
         print("Session One Secound Attempt to Build a Solution");
-        print(" John is " +" " +  StudentsAges["John"] +" " + " Years Old");
+        print(" John is " +" " +  StudentAges["John"] +" " + " Years Old");
 
        // Debug.Log(MyText);
         Debug.Log(MyText + AddtionResult(MonthlyProfitArray[0], MonthlyProfitArray[1] , MonthlyProfitArray[2]));
