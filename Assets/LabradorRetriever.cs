@@ -93,10 +93,10 @@ namespace MyDogs
         
         public void  EnhancedRunningSpeed()
         {
-            for ( int i = runningSpeed; i<=maxRunningSpeed; i++)
+            for ( int i = RunningSpeed; i<=MaxRunningSpeed; i++)
             {
-                runningSpeed = i;
-                Debug.Log(" The current enhanced speed prcentage is " + runningSpeed + "%");
+                RunningSpeed = i;
+                Debug.Log(" The current enhanced speed prcentage is " + RunningSpeed + "%");
             }
         }
 
